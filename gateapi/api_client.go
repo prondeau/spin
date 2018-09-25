@@ -60,6 +60,7 @@ type APIClient struct {
 	LoadBalancerControllerApi	*LoadBalancerControllerApiService
 	NetworkControllerApi	*NetworkControllerApiService
 	PipelineControllerApi	*PipelineControllerApiService
+	PipelineTemplateControllerApi	*PipelineTemplateControllerApiService
 	ProjectControllerApi	*ProjectControllerApiService
 	SearchControllerApi	*SearchControllerApiService
 	SecurityGroupControllerApi	*SecurityGroupControllerApiService
@@ -104,6 +105,7 @@ func NewAPIClient(cfg *Configuration) *APIClient {
 	c.LoadBalancerControllerApi = (*LoadBalancerControllerApiService)(&c.common)
 	c.NetworkControllerApi = (*NetworkControllerApiService)(&c.common)
 	c.PipelineControllerApi = (*PipelineControllerApiService)(&c.common)
+	c.PipelineTemplateControllerApi = (*PipelineTemplateControllerApiService)(&c.common)
 	c.ProjectControllerApi = (*ProjectControllerApiService)(&c.common)
 	c.SearchControllerApi = (*SearchControllerApiService)(&c.common)
 	c.SecurityGroupControllerApi = (*SecurityGroupControllerApiService)(&c.common)

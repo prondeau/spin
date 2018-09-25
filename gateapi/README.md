@@ -104,6 +104,7 @@ Class | Method | HTTP request | Description
 *PipelineControllerApi* | [**StartUsingPOST**](docs/PipelineControllerApi.md#startusingpost) | **Post** /pipelines/start | Initiate a pipeline execution
 *PipelineControllerApi* | [**UpdatePipelineUsingPUT**](docs/PipelineControllerApi.md#updatepipelineusingput) | **Put** /pipelines/{id} | Update a pipeline definition
 *PipelineControllerApi* | [**UpdateStageUsingPATCH**](docs/PipelineControllerApi.md#updatestageusingpatch) | **Patch** /pipelines/{id}/stages/{stageId} | Update a stage execution
+*PipelineTemplateControllerApi* | [**PublishPipelineTemplateUsingPOST**](docs/PipelineTemplateControllerApi.md#publishpipelinetemplateusingpost) | **Post** /pipelineTemplates/{id} | Publish a Pipeline Template
 *ProjectControllerApi* | [**AllPipelinesForProjectUsingGET**](docs/ProjectControllerApi.md#allpipelinesforprojectusingget) | **Get** /projects/{id}/pipelines | Get all pipelines for project
 *SearchControllerApi* | [**SearchUsingGET**](docs/SearchControllerApi.md#searchusingget) | **Get** /search | Search infrastructure
 *SecurityGroupControllerApi* | [**AllByAccountUsingGET1**](docs/SecurityGroupControllerApi.md#allbyaccountusingget1) | **Get** /securityGroups/{account} | Retrieve a list of security groups for a given account, grouped by region
